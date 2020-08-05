@@ -1,0 +1,55 @@
+body {
+  background: repeating-linear-gradient(#f3f4f5e8 0px, #eef0f1f5 0.4px);
+}
+
+.header {
+  text-align: center;
+  font-family: cursive;
+  text-shadow: 1px 2px 2px #575455;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.App {
+  margin-top: 10%;
+  box-shadow: 2px 2px 3px 3px #ccc;
+  border: 2px rgb(27, 3, 3);
+  padding: 20px;
+}
+
+.container {
+  max-width: 40vw;
+}
+
+hr.add-contact-line {
+  border-top: 1px dotted rgb(53, 53, 247);
+}
+
+.btn-add-contact {
+  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 3px 19px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-delete {
+  border-radius: 16px;
+  margin: 20% 0;
+  background-color: rgba(224, 50, 50, 0.57);
+
+  border-color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid: 100% / 84% 15% 1%;
+  grid-gap: 8px;
+  background-color: #c6d6e423;
+  padding: 8px;
+  font-size: 20px;
+}
+
+.grid-container > div {
+  background: repeating-linear-gradient(#f3f4f5e8 0px, #eef0f1fd 0.4px);
+  text-align: center;
+  align-content: center; 
+}
